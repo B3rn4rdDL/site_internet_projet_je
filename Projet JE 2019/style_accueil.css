@@ -1,0 +1,319 @@
+@font-face {
+	font-family: 'web-font';
+	src: url('police/santana_regular_macroman/Santana-webfont.eot');
+	src: url('police/santana_regular_macroman/Santana-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('police/santana_regular_macroman/Santana-webfont.woff') format('woff'),
+		 url('police/santana_regular_macroman/Santana-webfont.ttf') format('truetype'),
+		 url('police/santana_regular_macroman/Santana-webfont.svg') format('svg');
+}
+* 
+{
+	-moz-box-sizing: border-box; box-sizing: border-box;
+}
+html
+{
+	height: 100%; 
+}
+body
+{
+	min-height: 100%;
+	position: relative;
+	background: url("fond_ecran.jpg") fixed center;
+}
+#wrap
+{
+	min-height: 100%;
+	position: relative;
+}
+#header
+{
+	position: relative;
+}
+#main
+{
+	position: relative;
+	padding-bottom: 15%;
+}
+
+#footer
+{
+	height: 150px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+header
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: left;
+	border-bottom: 2px solid silver;
+	background-color: #DCDCDC;
+	position: relative;
+}
+footer
+{
+  	width: 100%; 
+  	height: 150px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	border-top: 2px solid silver;
+	margin-top: 2px;
+	align-items: flex-start;
+	background-color: #DCDCDC;
+	position: absolute;
+	bottom: 0;
+}
+.menu_nav
+{
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 10px;
+
+}
+.icone_panier
+{
+	margin-top: 5px;
+}
+.icone_connexion
+{
+	width: 1.7em;
+	height: 1.7em;
+	margin-top: 25px;
+}
+.icone_panier
+{
+	margin-top: 18px;
+	width: 2.3em;
+	height: 2.3em;
+}
+.icones_nav
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 100px;
+	flex-wrap: nowrap;
+}
+.logo_site
+{
+	display: flex;
+	width: auto;
+	height: 5em;
+	align-self: left;
+	margin-left: auto;
+}
+h1
+{
+	font-family: web-font, serif;
+	font-size: 1.4em;
+}
+#ventes_flash_accueil
+{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+h2
+{
+	font-size: 3em;
+	font-family: web-font, serif;
+	text-align: center;
+	background-color: rgb(250,208,131);
+}
+#pc_portables
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+#nouveaute
+{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+#ecrans_souris
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+td
+{
+	border: 1px solid gainsboro;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0px grey;
+	background-color: gainsboro;
+	width: 25%;
+	text-align: center;
+	font-family: web-font, serif;
+	font-size: 2em;
+	font-style: italic;
+}
+table
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	height: 200px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	color: blue;
+}
+.img_produit
+{
+	height: 120px;
+	width: auto;
+}
+.table_produit
+{
+	font-size: 6px;
+	height: auto;
+}
+.image_produit
+{
+	width: 130px;
+}
+.nom_produit
+{
+	width: 250px;
+}
+.descriptif_produit
+{
+	width: 650px;
+}
+.prix_produit
+{
+	width: 100px;
+}
+.libelle_tab_produit
+{
+	font-size: 12px;
+}
+.panier_vide
+{
+	font-size: 40px;
+	font-family: web-font, serif;
+	text-align: center;
+}
+.lien_co_panier
+{
+	color: green;
+}
+.j_en_profite
+{
+	font-size: 40px;
+	font-family: web-font, serif;
+	text-align: center;
+	background-color: gainsboro;
+}
+.form_footer
+{
+	background-color: #DCDCDC;
+	border: none;
+	font-family: web-font, serif;
+	text-align: left;
+	font-size: 15px;
+}
+.form_footer:hover
+{
+	color:blue;
+	cursor: pointer;
+}
+.liens_footer
+{
+	font-family: web-font, serif;
+	font-size: 15px;
+}
+.section_affichage_type
+{
+	display: flex;
+	font-family: web-font, serif;
+	font-size: 30px;
+	text-align: left;
+	justify-content: center;
+	border: 3px black inset;
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	width: 30%;
+	margin-left: 35%;
+	height: auto;
+	flex-wrap: wrap;
+}
+.button_affichage_type
+{
+	font-family: web-font, serif;
+	font-size: 30px;
+	background-color: #778899;
+}
+.button_affichage_type:hover
+{
+	background-color: darkgrey;
+	cursor: pointer;
+}
+.bonjour
+{
+	font-family: web-font, serif;
+	margin-top: 30px;
+	margin-left: 130px;
+}
+.aff_connexion_inscription
+{
+	display: flex;
+	font-family: web-font, serif;
+	font-size: 30px;
+	text-align: center;
+	justify-content: center;
+	border: 3px black inset;
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	width: 30%;
+	margin-left: 35%;
+	height: auto;
+	flex-wrap: wrap;
+}
+.button_inscription
+{
+	font-family: web-font, serif;
+	font-size: 30px;
+	background-color: #778899;
+}
+.button_inscription:hover
+{
+	background-color: darkgrey;
+	cursor: pointer;
+}
+.pc_bureautique_accueil
+{
+	background: url(images_produits/accueil/pc_bureautique.jpg);
+	border:none;
+	width: 100%;
+	height: 360px;
+	cursor: pointer;
+}
+.pc_gamers_accueil
+{
+	background: url(images_produits/accueil/pc_gamer.jpg);
+	border:none;
+	width: 881px;
+	height: 360px;
+	cursor: pointer;
+}
